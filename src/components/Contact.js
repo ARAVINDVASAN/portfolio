@@ -1,6 +1,6 @@
 import React, { useState,useRef } from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaPhone,  FaPaperPlane, FaGithub, FaLinkedin, } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 

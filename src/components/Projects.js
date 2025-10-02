@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaCode, FaRocket } from 'react-icons/fa';
+import {FaCode, FaRocket } from 'react-icons/fa';
 
 
 const Projects = () => {

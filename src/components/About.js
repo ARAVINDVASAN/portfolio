@@ -1,7 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { FaCode, FaRocket, FaLightbulb, FaUsers } from 'react-icons/fa';
-import CSS3DModel from './CSS3DModel';
 
 const About = () => {
   const containerVariants = {

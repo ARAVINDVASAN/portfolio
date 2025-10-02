@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHeart, FaGithub, FaLinkedin, FaTwitter, FaArrowUp } from 'react-icons/fa';
+import {FaGithub, FaLinkedin,FaArrowUp } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollToTop = () => {

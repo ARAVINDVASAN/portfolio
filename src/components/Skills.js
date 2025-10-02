@@ -6,14 +6,14 @@ import {
   FaJs, 
   FaPython, 
   FaGitAlt, 
-  FaDocker,
+
   FaAws,
   FaDatabase,
   FaHtml5,
   FaCss3Alt,
   FaBootstrap
 } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiPostgresql, SiTypescript, SiNextdotjs } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiPostgresql, SiTypescript} from 'react-icons/si';
 import { BiLogoDjango } from "react-icons/bi";
 
 

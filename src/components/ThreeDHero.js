@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaDownload, FaRocket } from 'react-icons/fa';
-import { HiCode, HiSparkles } from 'react-icons/hi';
-import CSS3DModel from './CSS3DModel';
+import { FaGithub, FaLinkedin, FaDownload, FaRocket } from 'react-icons/fa';
 import ParticleBackground from './ParticleBackground';
 import Spline from '@splinetool/react-spline';
+import React, { Suspense } from 'react';
 
 
 const ThreeDHero = () => {
@@ -33,7 +32,9 @@ const ThreeDHero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-black">
       {/* Particle Background */}
-      <ParticleBackground />
+        <Suspense fallback={<div className="w-full h-full flex items-center justify-center">Loading...</div>}>
+        <ParticleBackground />
+      </Suspense>
       
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -190,8 +191,10 @@ const ThreeDHero = () => {
           
           className=" h-[600px] lg:h-[700px] w-full"
         >
+          <Suspense fallback={<div className="w-full h-full flex items-center justify-center">Loading 3D...</div>}>
+          <Spline scene="https://prod.spline.design/C5FE1GStmdDCCE0O/scene.splinecode" />
+        </Suspense>
           
-                            <Spline scene="https://prod.spline.design/C5FE1GStmdDCCE0O/scene.splinecode" />
                             </motion.div>
 
           {/* <motion.div

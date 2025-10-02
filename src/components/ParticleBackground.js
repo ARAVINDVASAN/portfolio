@@ -24,7 +24,7 @@ const ParticleBackground = () => {
         },
         fpsLimit: 120,
         interactivity: {
-          events: {}, // No click or hover
+          events: {}, // No click or hover  
         },
         particles: {
           color: {
